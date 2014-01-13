@@ -5,7 +5,7 @@ require 'pygments'
 # create a custom renderer that allows highlighting of code blocks
 class HTMLwithPygments < Redcarpet::Render::HTML
   def block_code(code, language)
-    Pygments.highlight(code, lexer: language)
+    Pygments.highlight(code, :lexer => language)
   end
 end
 
@@ -15,7 +15,7 @@ $stdin.each_line do |line|
     source += line
 end
 
-markdown_renderer = Redcarpet::Markdown.new(HTMLwithPygments, :fenced_code_blocks => true)
+markdown_renderer = Redcarpet::Markdown.new(HTMLwithPygments.new(:with_toc_data => true), :fenced_code_blocks => true, :tables => true, :autolink => true, :strikethrough => true)
 
 puts markdown_renderer.render(source)
 
