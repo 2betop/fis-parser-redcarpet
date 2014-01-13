@@ -1,0 +1,27 @@
+{
+  "name": "fis-parser-redcarpet",
+  "version": "0.0.1",
+  "description": "A parser plugin for fis to compile markdown file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2betop/fis-parser-redcarpet.git"
+  },
+  "keywords": [
+    "fis",
+    "markdown",
+    "redcarpet"
+  ],
+  "author": "FIS TEAM <fis@baidu.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/2betop/fis-parser-redcarpet/issues"
+  },
+  "dependencies": {
+    "exec-sync": "~0.1.6",
+    "temp": "~0.6.0"
+  }
+}
