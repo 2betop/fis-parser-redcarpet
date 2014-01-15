@@ -19,9 +19,10 @@ markdown_renderer = Redcarpet::Markdown.new(HTMLwithPygments.new(:with_toc_data 
 
 puts markdown_renderer.render(source)
 
-if ARGV.first
-    converter = Redcarpet::Markdown.new(Redcarpet::Render::HTML_TOC)
-    toc = converter.render(source)
-    toc = toc.gsub(/<ul>/, '<ul class="nav">')
-    puts "<!--separator-->\n#{toc}\n"
-end
+# 自带TOC有bug，还是在JS里面处理吧。
+# if ARGV.first
+#     converter = Redcarpet::Markdown.new(Redcarpet::Render::HTML_TOC)
+#     toc = converter.render(source)
+#     toc = toc.gsub(/<ul>/, '<ul class="nav">')
+#     puts "<!--separator-->\n#{toc}\n"
+# end
