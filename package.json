@@ -1,6 +1,6 @@
 {
   "name": "fis-parser-redcarpet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A parser plugin for fis to compile markdown file.",
   "main": "index.js",
   "scripts": {
