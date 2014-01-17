@@ -12,10 +12,6 @@ fis-parser-redcarpet
 </div>
 ```
 
-# 标题1
-# 标题2
-```
-
 ```bash
 # 这些应该自带就装了吧？
 ~ gem install redcarpet
