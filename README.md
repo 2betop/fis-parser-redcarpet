@@ -16,6 +16,8 @@ fis-parser-redcarpet
 # 这些应该自带就装了吧？
 ~ gem install redcarpet
 ~ gem install pygments
+
+# 全局安装fis插件。
 ~ npm install fis-parser-redcarpet
 ```
 
