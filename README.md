@@ -18,7 +18,7 @@ fis-parser-redcarpet
 ~ gem install pygments.rb
 
 # 全局安装fis插件。
-~ npm install fis-parser-redcarpet
+~ npm install fis-parser-redcarpet -g
 ```
 
 ```javascrpit
