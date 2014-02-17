@@ -5,7 +5,7 @@ fis-parser-redcarpet
 
 支持生成目录，md中可以使用{:toc}变量来控制在哪输出目录。
 
-```md
+```html
 <div>
     <h1>目录</h1>
     {:toc}
@@ -15,7 +15,7 @@ fis-parser-redcarpet
 ```bash
 # 这些应该自带就装了吧？
 ~ gem install redcarpet
-~ gem install pygments
+~ gem install pygments.rb
 
 # 全局安装fis插件。
 ~ npm install fis-parser-redcarpet
