@@ -3,7 +3,7 @@ fis-parser-redcarpet
 
 通过redcarpet来解析Markdown
 
-支持生成目录，md中可以使用{:toc}变量来控制在哪输出目录。
+支持生成markdown目录。md中可以使用{:toc}变量来控制在哪输出markdown目录。
 
 ```html
 <div>
