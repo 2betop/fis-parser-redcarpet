@@ -50,7 +50,7 @@ function makeToc(ret) {
         cursor = 0,
         tocs = [''];
 
-    ret.replace(/<h(\d)[^>]*?id=('|")(.+)\2[\s\S]*?<\/h\1>/ig, function(all, level, _, link) {
+    ret.replace(/<h(\d)[^>]*?id=('|")(.+?)\2[\s\S]*?<\/h\1>/ig, function(all, level, _, link) {
         headers.push({
             level: parseInt(level, 10),
             link: link,
